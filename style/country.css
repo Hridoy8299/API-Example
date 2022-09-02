@@ -1,0 +1,10 @@
+#contries-container{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr) ;
+    gap: 15px;
+    border: 2 px solid rgb(20, 2, 2);
+}
+.country {
+    border: 2 px solid rgb(20, 2, 2);
+    padding: 10px;
+}
